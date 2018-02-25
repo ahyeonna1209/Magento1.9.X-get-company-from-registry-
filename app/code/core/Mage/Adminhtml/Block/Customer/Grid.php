@@ -86,17 +86,6 @@ class Mage_Adminhtml_Block_Customer_Grid extends Mage_Adminhtml_Block_Widget_Gri
             'index'     => 'company'
         ));
         
-/*$this->addColumn('firstname', array(
-             'header'    => Mage::helper('customer')->__('First Name'),
-             'width'     => '100px',
-			 'index'     => 'firstname'
-        ));
-        
-        $this->addColumn('lastname', array(
-            'header'    => Mage::helper('customer')->__('Last Name'),
-             'width'     => '100px',
-			'index'     => 'lastname'
-        ));*/
 
       $this->addColumn('name', array(
             'header'    => Mage::helper('customer')->__('Name'),
